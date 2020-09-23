@@ -11,4 +11,5 @@
     $op = new Operacao($opEscolhida,$n1,$n2); //operacao
     $calculadora = new Calculadora($op);
 
-    $calculadora->acao();
+    $calculadora->acao(); 
+    
