@@ -1,31 +1,20 @@
-body {
-   margin: 0;
+body{
+    color: rgb(239, 245, 245);
+    background-color: dodgerblue;
+    font-size: 1.sem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #f44336;
+h1{
     text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
-    font-size: 20;
 }
-
-.navbar a:hover {
-    background-color: #ff7961;
-    color: white;
+img{
+    width: 15%;
 }
-
-
-#teste {
-    margin-top:  2000px;
+p{
+    color: black;
 }
-
+a{
+    color: black;
+    font-size: larger;
+}
