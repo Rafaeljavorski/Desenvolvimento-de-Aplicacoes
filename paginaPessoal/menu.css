@@ -9,12 +9,12 @@ h1{
     text-align: center;
 }
 img{
-    width: 15%;
+    justify-content: space-around;
 }
 p{
     color: black;
 }
 a{
-    color: black;
+    color: #000000;
     font-size: larger;
 }
