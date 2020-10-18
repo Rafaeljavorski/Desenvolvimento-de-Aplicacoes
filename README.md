@@ -1,2 +1,2 @@
 # Desenvolvimento-de-Aplicacoes
-Exercicio aula de desenvolvimento de aplicações
+Exercicios realizados nas aulas de Desenvolvimento de Aplicaçoes.
