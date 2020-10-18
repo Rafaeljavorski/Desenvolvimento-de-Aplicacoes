@@ -3,40 +3,47 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="calculadora.js"></script>
+   <link  rel = " stylesheet " href = "calculadora.css" >
    <title>Calculadora</title>
 </head>
-<body>   
+<body>  
+   <form action="" name="calc">
+
+  
       <div id="calculadora">
-         <textarea name="display" id="display" cols="30" rows="2"></textarea> 
+         <Input type="text" id="visor" nome="visor">
             <div>
-                  <button>1</button>
-                  <button>2</button>
-                  <button>3</button>
-                  <button>+</button>             
+                  <input type="button" value="1" class="botao" onclick="botao(value)">  
+                  <input type="button" value="2" class="botao" onclick="botao(value)"> 
+                  <input type="button" value="3" class="botao" onclick="botao(value)"> 
+                  <input type="button" value="+" class="botao" onclick="botao(value)">        
             </div>
                   <div>
-                     <button>4</button>
-                     <button>5</button>
-                     <button>6</button>
-                     <button>-</button>           
+                     <input type="button" value="4" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="5" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="6" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="-" class="botao" onclick="botao(value)"> 
+
                   </div>
                   <div>
-                     <button>7</button>
-                     <button>8</button>
-                     <button>9</button>
-                     <button>*</button>
+                     <input type="button" value="7" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="8" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="9" class="botao" onclick="botao(value)"> 
+                     <input type="button" value="*" class="botao" onclick="botao(value)"> 
                                
                   </div>
                      <div>
-                        <button>0</button>
-                        <button>.</button>
-                        <button>C</button>
-                        <button>/</button>
+                        <input type="button" value="0" class="botao" onclick="botao(value)"> 
+                        <input type="button" value="." class="botao" onclick="botao(value)"> 
+                        <input type="button" value="C" class="botao" onclick="reset()"> 
+                        <input type="button" value="/" class="botao" onclick="botao(value)"> 
                                  
                      </div>   
                         <div>
-                       <button id="igualdade">=</button>
+                           <input type="button" value="=" class="botao" onclick="calcular(value)"> 
                         </div>
-      </div>   
+      </div> 
+   </form>  
 </body>
 </html>
